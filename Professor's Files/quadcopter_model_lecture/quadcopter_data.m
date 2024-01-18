@@ -1,0 +1,40 @@
+quadcopter.body.mass =  0.063 ;
+
+quadcopter.body.inertia.Ixx = 5.82857e-05;
+quadcopter.body.inertia.Iyy = 7.16914e-05;
+quadcopter.body.inertia.Izz =  1.0e-04;
+quadcopter.body.d        =  0.0624;
+quadcopter.body.xy       =  0.044123463146041
+quadcopter.body.h        =  -0.0158760;
+quadcopter.body.Cdx      =  0;
+quadcopter.body.Cdy      =  0;
+quadcopter.body.diameter =  0.01;
+% rotor data
+quadcopter.rotor.blades         =  2;
+quadcopter.rotor.radius         =  0.033;
+quadcopter.rotor.chord          =  0.008;
+quadcopter.rotor.flappingOffset =  0;
+quadcopter.rotor.bladeMass      =  3.750000000000000e-04;
+quadcopter.rotor.bladeInertia   =  1.020937500000000e-07;
+quadcopter.rotor.hubMass        =  0;
+quadcopter.rotor.hubInertia     =  0;
+quadcopter.rotor.inertia        =  1.020937500000000e-07;
+quadcopter.rotor.Ct             =  0.010700000000000;
+quadcopter.rotor.Cq             =  7.826375278505369e-04;
+quadcopter.rotor.solidity       =  0.154332066028505;
+quadcopter.rotor.theta0         =  0.254818070791172;
+quadcopter.rotor.thetaTip       =  0.118682389135614;
+quadcopter.rotor.theta1         =  -0.136135681655558;
+quadcopter.rotor.theta34        =  0.152716309549504;
+quadcopter.rotor.a              =  5.500000000000000;
+quadcopter.rotor.area           =  0.003421194399759;
+quadcopter.rotor.ock            =  0.605147136000000;
+quadcopter.rotor.b              =  4.719990366910910e-08;
+quadcopter.rotor.k              =  1.139283855549884e-10;
+quadcopter.rotor.w2ToThrustGain =  4.719990366910910e-08;
+
+% rotor data
+quadcopter.rotor.motor.maxLimit           =  500;
+quadcopter.rotor.motor.minLimit            =  10;
+quadcopter.rotor.motor.commandToW2Gain      =  1.384080000000000e+04;
+quadcopter.rotor.motor.thrustToMotorCommand =  1.530726830648920e+03;
